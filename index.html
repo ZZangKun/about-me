@@ -13,9 +13,9 @@
   <!-- background image -->
   <body background="https://mediaassets.airbus.com/pm_38_519_519412-mvyvo5ofql.jpg?dl=true"> 
   
-  <h1 id="h1">
-    <button id="home"> Header </button>
-  </h1>
+  
+  <button id="home"> About Jacky Huang </button>
+  
   <script src="script.js"></script> 
 
   <!--
@@ -35,10 +35,10 @@
     <button class="dropbtn">Menu Bar</button>
     <div class="dropdown-content">
       <a href="#row1">About me</a>
-      <a href="#row2">My project</a>
+      <a href="#project">My project</a>
 
 
-      <a href="3">Airplanes</a>
+      <a href="#plane_photo">Airplanes</a>
       <a href="https://github.com/ZZangKun/personal-bio">Github page</a>
       <a href=mailto:“jhuang24@students.stab.org”>Email me</a>
       <a href="https://genshin.hoyoverse.com/en/home">Download Genshin Impact</a>
@@ -61,9 +61,55 @@
   <h2 id="project"> My Project </h2>
   <!-- row2 that includes some project -->
   <div id="row2">
+    <button type="button" class="project_button" onclick="location.href='https://github.com/ZZangKun/calculate_twentyfour'"> </button>
+
+    <div class="blank2"> </div>
     
+    <button type="button" class="project_button_poker" onclick="location.href='https://github.com/ZZangKun/Poker_project'"> </button>
+
+    <div class="blank2"> </div>
+
+    <button type="button" class="project_button_sm" onclick="location.href='https://github.com/ZZangKun/Store_management'"> </button>
+    
+  </div>
+
+
+  <div id="row3">
+    <h3>Twentyfour Calculator</h3>
+    <div class="project_des">Calculate twentyfour is a game that randomly picks four card, and you will need to calculate 24 using all the four numbers with +, -, *, or /. This calculator is written in c++ that calculates the output and shows the detailed process. For example, if you input 1, 2, 3, 4, the output will be 2+1=3
+3+3=6
+6*4=24. I did this project in my freshman year in highschool, but it's only working for most of the time; sometimes it will produce error(still fixing that!).</div>
+
+    <div class="blank2"> </div>
+
+    <h3>Poker Project</h3>
+    <div class="project_des">Poker project randomly select five set of cards of give, and see which set wins based on poker rules(ex. Royal Flush > Full House). The project is written in Python in my Data Structure class.</div>
+
+    <div class="blank2"> </div>
+
+    <h3>Store Management</h3>
+    <div class="project_des">The store management project is written in Java and it takes a series of dishes and its price to show on the console when running it. It then asks if the user needs to sell a dish; if so, then the dish will be eliminated from the list. The core of this project is the inheritance of Java class, which expands one parent class into many other classes that share similar features. </div>
 
     
+  </div>
+
+  <div class="pink_blank">
+    <br></br>
+    <br></br>
+    <br></br>
+  </div>
+
+  <div row4 id="row4">
+    <h4 id="plane_photo">Planes!</h4>
+    <img class="planes" src="CES777@SHA.png"></img>
+
+    <div class="blank2"> </div>
+
+    <img class="planes" src="China_Southern359@SHA.png"></img>
+
+    <div class="blank2"> </div>
+
+    <img class="planes" src="AirChinaB-2047@SHA.jpg"></img>
   </div>
   
 </body>
