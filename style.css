@@ -7,6 +7,7 @@ html {
 body{
   /*make the image the full webpage  */
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div{
@@ -28,8 +29,10 @@ div{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 36px
+  font-size: 36px;
 }
+
+
 
 #row1{
   background-color: pink;
@@ -100,4 +103,96 @@ div{
 
 #project{
   margin-top: 350px;
+}
+
+#row2{
+  height: 250px;
+  display: flex;
+  flex-wrap: warp;
+}
+
+.project_button{
+  background-image: url('calculate_twentyfour.png');
+  border: none;
+  background-repeat: no-repeat;
+  flex: 30%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  /* make the pointer a mouse */
+  cursor: pointer; 
+}
+
+.project_button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.72),0 17px 50px 0 rgba(0,0,0,0.57);
+}
+
+.blank2{
+  flex: 5%;
+}
+
+.project_button_poker{
+  background-image: url('poker_image.png');
+  border: none;
+  background-repeat: no-repeat;
+  flex: 30%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  /* make the pointer a mouse */
+  cursor: pointer; 
+}
+
+.project_button_poker:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.72),0 17px 50px 0 rgba(0,0,0,0.57);
+}
+
+.project_button_sm{
+  background-image: url('store_management_project.png');
+  border: none;
+  background-repeat: no-repeat;
+  flex: 30%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  /* make the pointer a mouse */
+  cursor: pointer; 
+}
+
+.project_button_sm:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.72),0 17px 50px 0 rgba(0,0,0,0.57);
+}
+
+/* row3 that includes description of the projects*/
+#row3{
+  background-color: pink;
+  display: flex;
+  flex-wrap: warp;
+}
+
+.project_des{
+  flex: 30%;
+}
+
+#row4{
+  background-color: pink;
+  display: flex;
+  flex-wrap: warp;
+}
+
+#plane_photo{
+  font-size: 30px;
+}
+
+.planes{
+  background-size: cover;
+  width: 390px;
+  height: 260px;
+}
+
+.pink_blank{
+  background-color: pink;
 }
