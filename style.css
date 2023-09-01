@@ -30,6 +30,7 @@ div{
   text-decoration: none;
   display: inline-block;
   font-size: 36px;
+  cursor: pointer; 
 }
 
 
