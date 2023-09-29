@@ -4,10 +4,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  /*make the image the full webpage  */
+html { 
+  background: url("https://mediaassets.airbus.com/pm_38_519_519412-mvyvo5ofql.jpg?dl=true") no-repeat center fixed; 
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 div{
@@ -50,7 +49,7 @@ div{
   font-size: 30px;
   border: lightblue;
   border-radius: 20%;
-  flex: 40%;
+  flex: 15%;
   margin-top: 1%;
 }
 
@@ -65,7 +64,7 @@ div{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 135px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -95,11 +94,11 @@ div{
 }
 
 .blank{
-  flex: 5%;
+  flex: 2%;
 }
 
 .bio{
-  flex: 55%;
+  flex: 83%;
   text-align: center;
 }
 
@@ -177,6 +176,11 @@ div{
 
 .project_des{
   flex: 30%;
+  margin-top: 20px;
+}
+
+#twentyfour{
+  margin-left: 20px;
 }
 
 #row4{
@@ -187,6 +191,7 @@ div{
 
 #plane_photo{
   font-size: 30px;
+  margin-bottom: 0;
 }
 
 .planes{
